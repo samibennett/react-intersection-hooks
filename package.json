@@ -1,0 +1,29 @@
+{
+  "name": "react-intersection-hooks",
+  "version": "1.0.0",
+  "description": "A collection of highly performant, SSR-safe React hooks for the Intersection Observer API.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "intersection-observer",
+    "performance",
+    "ssr"
+  ],
+  "author": "nyhmas",
+  "license": "MIT"
+}
